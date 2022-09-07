@@ -1,0 +1,79 @@
+/* .shadow-sm  {
+    margin-bottom: 10px;
+} */
+
+.heard{
+    background: #0a141d;
+    padding: 15px;
+}
+.heard .navbar {
+    background: #0d2033;
+}
+
+.contendorCortes{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.col .card {
+    margin-bottom: 10px ;
+    box-shadow: 0 10px 15px rgb(35 86 82 / 10%) ;
+}
+.carouselC{
+    margin-bottom: 30px;
+    box-shadow: 20px 20px 30px rgb(35 86 82 / 20%) ;
+}
+.carouselC img{
+    width: auto;
+    height: 600px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(0 0 0 / 0.2);
+}
+.container .card img {
+    width: 330px;
+    height: 260px;
+}
+.container .card h4 {
+    margin-top: 10PX;
+    font-weight: 600;
+}
+.container .card p {
+    padding: 0 1rem;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
